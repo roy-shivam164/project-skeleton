@@ -1,0 +1,22 @@
+{
+  "name": "project-skeleton",
+  "version": "1.0.0",
+  "description": "A custom project generator",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "project",
+    "generator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "bin": {
+    "npm-create-skeleton": "index.js"
+  }
+}
